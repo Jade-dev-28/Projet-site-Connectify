@@ -1,5 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+ 
  *{
     margin: 0;
     padding: 0;
@@ -9,7 +10,7 @@
    
 :root{
     --mainColor:#DACA3B;
-    --mainColorLight:#daca3b7e;
+    --mainColorLight:#daca3be1;
     --secondaryColor:#216249;
     --troisiemeColor: #20835D ;
     --textColor:#eee;
@@ -17,21 +18,71 @@
 }
 
   header {
+    width: 153vh;
     display: flex;
     align-items: center;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     height: 80px;
     padding :0 2rem;
-    color: ;
+    position: absolute;
+    
+  }
 
+  h3 {
+    font-family: 'Chicle', cursive;
+    color: var(--mainColor);
+    font-size: x-large;
+  }
+
+  nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 17px;
   }
 
   nav a{
     margin: 0 2rem;
-    color: var(--texstColor) ;
+    color: var(--textColor) ;
     text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end; 
+ 
   }
 
   nav a :hover{
-    color:var(--mainColor)
+    color:var(--mainColor);
+  }
+
+  .header{
+    width: 100%;
+    height: 100vh;
+  }
+  
+  video {
+    width: 100%;
+    /*height: 100%;*/
+    object-fit: contain;
+  }
+  
+  .content {
+    font-size: 50px;
+    color: var(--mainColorLight);
+    position: absolute;
+    width: 100%;
+    height: 23%;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1{
+    font-family: 'Chicle', cursive;
+    font-size: 170px;
   }

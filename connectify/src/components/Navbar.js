@@ -7,21 +7,14 @@ const showNavbar = () => {
    navRef.current.classList.toggle("responsive_nav");
   }*/
     return( 
-        <headaer>
+        <header>
             <h3>Connectify</h3>
-            <nav /*ref={navRef}*/>
+            <nav>
                 <a href="#">Accueil</a>
                 <a href="#">Connexion</a>
                 <a href="#">Inscription</a>
-                <button className="nav-btn nav-close-btn" /* onClick={showNavbar}*/>
-                
-                </button>
-            </nav>
-            <button  className="nav-btn " /*onClick={showNavbar}*/>
-
-            </button>
-
-        </headaer>
+                 </nav>
+         </header>
 
     );
 }
