@@ -1,0 +1,18 @@
+nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-top: 17px;
+    z-index: 9999;
+  }
+
+  nav a{
+    margin: 0 2rem;
+    color: var(--textColor) ;
+    text-decoration: none;
+  }
+
+  nav a :hover{
+    color:var(--mainColor);
+  }
