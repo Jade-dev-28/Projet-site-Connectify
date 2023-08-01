@@ -1,4 +1,4 @@
-import { useref } from "react";
+//import { useref } from "react";
 import './styles/navbar.css'
 
 function Navbar() {
@@ -11,9 +11,9 @@ const showNavbar = () => {
         <header>
             <h3>Connectify</h3>
             <nav>
-                <a href="#">Accueil</a>
-                <a href="#">Connexion</a>
-                <a href="#">Inscription</a>
+                <a href="/">Accueil</a>
+                <a href="/">Connexion</a>
+                <a href="/">Inscription</a>
                  </nav>
          </header>
 

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
- 
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
 :root{
     --mainColor:#DACA3B;
     --mainColorLight:#daca3be1;
@@ -26,24 +26,31 @@ header {
     width: 100%;
   }
   
-  video {
-    width: 100%;
-    /*height: 100%;*/
-    object-fit: contain;
-  }
-  
-  .content{
-    font-size: 50px;
-    color: var(--mainColorLight);
-    width: 100%;
-    height: 23%;
-    top: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+
+.bienvenue h2{
+    font-family: 'Gravitas One', cursive;
+    font-size: 124px;
+    color: var(--secondaryColor);
   }
 
-  h1{
-    font-family: 'Chicle', cursive;
-    font-size: 170px;
-  }
+.bienvenue{
+    width: 100%;
+    height: 960px;
+    background-color: var(--mainColorLight);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bienvenue p {
+  color: var(--textColor);
+text-align: center;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}

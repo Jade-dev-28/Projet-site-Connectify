@@ -4,13 +4,16 @@ import './styles/header.css'
 
 const Header = (props) => {
 return (
-    <div className="header">
-        <video src={fd_accueil} autoPlay loop/>
-        <div className='content'>
-        <h1>{props.title}</h1>
+<div className="header">
+            <video id="bgvideo"  autoPlay loop>
+            <source src={fd_accueil} type="video/mp4"/>
+            </video>
+            <div className='content'>
+           <h1>{props.title}</h1>
+            </div>
         </div>
-    </div>
-)
+  
+);
 
 }
 export default Header;
