@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/bienv.css'
+import '../styles/bienv.css'
 
 
 function Bienv(props) {

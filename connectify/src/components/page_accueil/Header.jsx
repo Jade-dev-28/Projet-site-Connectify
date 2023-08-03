@@ -1,6 +1,6 @@
 import React from 'react'
-import fd_accueil from '../media/fd_accueil.mp4'
-import './styles/header.css'
+import fd_accueil from '../../media/fd_accueil.mp4';
+import '../styles/header.css';
 
 const Header = (props) => {
 return (

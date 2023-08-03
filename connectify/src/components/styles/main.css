@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+.section {
+    width: 100%;
+    display: flex;
+}
+
+
+
+.section2 {
+    width: 50%;
+}
+
+.section2 img {
+    width: 100%;
+    
+}
+
+.texte {
+    width: 50%;
+    padding: 3rem;
+    background-color: #20835D;
+}
+
+.texteQsn{
+    width: 50%;
+    padding: 3rem;
+    background-color: #1D5A43;
+}
+
+.sectionQsn {
+    width: 100%;
+    height: 678px;
+    display: flex;
+}
+
+.sectionQsn img {
+    object-fit:cover;
+    height: 100%;
+}
+
+h2 {
+
+    color: #DACA3B;
+    font-family: Gravitas One;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p{
+    padding: 50px;
+    color: white;
+}

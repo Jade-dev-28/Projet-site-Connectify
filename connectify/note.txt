@@ -4,3 +4,37 @@
         <h1>{props.title}</h1>
         </div>
 </div> */}
+
+grid mui {/* <Grid container>
+                <Grid items xs={12} md={6}>
+                    <Paper className="image1">
+                        <img src={image1}/>
+                    </Paper>
+                </Grid>
+                <Grid items xs={12} md={6} >
+                    <Paper style={{ backgroundColor: "#20835D",  height: "1119px" }}>
+                    actualité
+                    </Paper>
+                </Grid >
+                <Grid items xs={12} md={6}>
+                    <Paper style={{backgroundColor:"#1D5A43",  height: "1119px" }}>
+                        Qui sommes nous ?
+                    </Paper>
+                </Grid>
+                <Grid items xs={12} md={6} >
+                    <Paper style={{ height: "1119px" }}>
+                    <img src={image2}/>
+                    </Paper>
+                </Grid>
+                <Grid items xs={12} md={6}>
+                    <Paper style={{ height: "1119px" }}>
+                    <img src={image3}/>
+                    </Paper>
+                </Grid>
+                <Grid items xs={12} md={6}>
+                    <Paper style={{backgroundColor:"#20835D",  height: "1119px"}}>
+                        Nous contacter
+                    </Paper>
+                </Grid>
+
+            </Grid>*/}

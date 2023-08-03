@@ -1,8 +1,9 @@
 import "../App.css"
-import Navbar from '../components/Navbar';
+import Navbar from '../components/page_accueil/Navbar';
 //import './components/styles/main.css';
-import Header from '../components/Header';
-import Bienv from '../components/Bienv';
+import Header from '../components/page_accueil/Header';
+import Bienv from '../components/page_accueil/Bienv';
+import Main from "../components/page_accueil/Main";
 
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
         <Navbar/>
         <Header title="Connectify"/>
         <Bienv title="Bienvenue"/>
+        <Main/>
         {/* <p>JE MANGE UNE POMME</p> */}
   
       </div>
