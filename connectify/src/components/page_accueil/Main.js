@@ -8,6 +8,7 @@ import SectionContact from "./SectionContact";
 import imgContact from "../../assets/fd_contact.jpg";
 
 
+
 function Main (){
     return(
         <div>
