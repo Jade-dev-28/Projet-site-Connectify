@@ -4,7 +4,9 @@ import Navbar from '../components/page_accueil/Navbar';
 import Header from '../components/page_accueil/Header';
 import Bienv from '../components/page_accueil/Bienv';
 import Main from "../components/page_accueil/Main";
-
+//import ChangeLanguageComponent from "../components/page_accueil/Bienv";
+import React, { useState, useEffect } from 'react';
+import Footer from "../components/Footer";
 
 
 function Home() {
@@ -14,10 +16,11 @@ function Home() {
           
         <Navbar/>
         <Header title="Connectify"/>
+       {/*<ChangeLanguageComponent/>*/} 
         <Bienv title="Bienvenue"/>
         <Main/>
-        {/* <p>JE MANGE UNE POMME</p> */}
-  
+        <Footer/>
+        
       </div>
   
     );

@@ -55,3 +55,35 @@ p {
     padding: 50px;
     color: white;
 }
+
+@media (max-width: 768px) {
+
+    .section {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+
+    .sectionQsn {
+        width: 100%;
+        height: 678px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2,
+    .texte,
+    .texteQsn {
+        width: 100%;
+    
+    }
+    
+    .sectionQsn {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    
+  }
+  

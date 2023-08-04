@@ -1,0 +1,24 @@
+.container{
+    padding: 100px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.news{
+    padding: 3rem;
+    width: 981px;
+    height: 452px;
+    border-radius: 20px;
+background: rgba(0, 0, 0, 0.74);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+button {
+width: 326px;
+height: 80px;
+border-radius: 20px;
+background: #216249;
+color: #fff;
+font-size: 30px;
+}

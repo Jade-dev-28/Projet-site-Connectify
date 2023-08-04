@@ -10,11 +10,9 @@ function ContactForm () {
          
             <label for="email">Email: </label>
             <input type="email" name="email" placeholder="Entrez votre email..."/>
-         
-
       
             <label for="sujet">Sujet: </label>
-            <textarea name="message" placeholder="Sujet de votre message..."></textarea>
+            <textarea name="sujet" placeholder="Sujet de votre message..."></textarea>
           
           
             <label for="message" >Message: </label>

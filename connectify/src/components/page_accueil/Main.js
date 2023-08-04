@@ -6,6 +6,8 @@ import SectionQsn from "./SectionQsn";
 import sectionImgQsn from '../../assets/fd_qsn.jpg';
 import SectionContact from "./SectionContact";
 import imgContact from "../../assets/fd_contact.jpg";
+import Newsletter from "../../components/page_accueil/Newsletter";
+import "../styles/newsletter.css";
 
 
 
@@ -32,7 +34,12 @@ function Main (){
             sectImg={imgContact}
             title="Nous contacter"
             />
-
+            
+            <Newsletter
+            cName="container"
+            title="Newsletter"
+            texte="Inscrivez-vous à notre newsletter pour rester informé(e) et connecté(e) avec Connectify !"
+            />
         </div>
 
     );

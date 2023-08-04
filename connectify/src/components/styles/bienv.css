@@ -29,6 +29,7 @@ header {
 
 
 .bienvenue h2{
+  padding: 50px;
     font-family: 'Gravitas One', cursive;
     font-size: 124px;
     color: var(--secondaryColor);
@@ -53,4 +54,25 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+    position: static;
+    padding: 1rem;
+  }
+
+  .bienvenue {
+    height: auto;
+  }
+
+  .bienvenue h2 {
+    font-size: 72px;
+  }
+
+  .bienvenue p {
+    font-size: 24px;
+  }
 }
