@@ -5,8 +5,8 @@ import Header from '../components/page_accueil/Header';
 import Bienv from '../components/page_accueil/Bienv';
 import Main from "../components/page_accueil/Main";
 //import ChangeLanguageComponent from "../components/page_accueil/Bienv";
-import React, { useState, useEffect } from 'react';
 import Footer from "../components/Footer";
+
 
 
 function Home() {
