@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Switch, Route, Routes, Link} from 'react-route
 import './App.css';
 import Home from './routes/Home';
 import Connexion from './routes/Connexion';
-
+import Contact from './routes/Contact';
+import Inscription from './routes/Inscription';
 
 
 
@@ -15,6 +16,9 @@ function App() {
           
           <Route path="/accueil" element={<Home />} />
           <Route path="/connexion" element={<Connexion />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/inscription" element={<Inscription />} />
+
           
         </Routes>
       </Router>
