@@ -1,9 +1,12 @@
-.contact{
+.contact,
+.inscription {
     max-width: 500px;
     margin: 0 auto;
 }
 
-.contact_form {
+
+.contact_form,
+.inscription_form {
      height: 540px;
      width: 466px;
     display: flex;
@@ -16,8 +19,16 @@
 }
 
 
+.inscription_form{
+  height: 600px;
 
-input[type=text], textarea, input[type=email] {
+}
+
+
+input[type=text], 
+textarea, 
+input[type=email], 
+input[type=password] {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -30,15 +41,23 @@ input[type=text], textarea, input[type=email] {
     resize: vertical;
   }
 
-  
+  .genre {
+    text-align: justify;
+    margin: 20px;
+    color: white;
+}
 
-  label{margin-right: 0px;
+  label,
+  .name_group label{
+    margin-right: 0px;
     margin-left: 0px;
     width: 100%;
     text-align: justify;
+    color: white;
 }
 
-.contact_form button{
+.contact_form button,
+.inscription_form button{
     width: 219px;
 height: 60px;
     border-radius: 20px;

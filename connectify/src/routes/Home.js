@@ -14,7 +14,14 @@ function Home() {
     return (
       <div >
           
-        <Navbar/>
+        <Navbar
+        page="Accueil"
+        page2="Connexion"
+        page3="Inscription"
+        urlAcc="./Accueil"
+        urlCo="./Connexion"
+        url2= "./Inscription"/>
+
         <Header title="Connectify"/>
        {/*<ChangeLanguageComponent/>*/} 
         <Bienv title="Bienvenue"/>

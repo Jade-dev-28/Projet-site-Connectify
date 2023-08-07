@@ -7,7 +7,12 @@ import imgContact from "../assets/fd_contact.jpg";
 
 function Contact (){
     return( <div>
-        <Navbar/>
+        <Navbar
+        page="Profil"
+        page2="Contact"
+        page3="Deconnexion"
+        urlAcc="./Profil"/>
+        
         <SectionContact
             cName="section2"
             sectImg={imgContact}

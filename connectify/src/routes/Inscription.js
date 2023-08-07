@@ -8,7 +8,13 @@ function Inscrption(){
 return(
 
     <div>
-        <Navbar/>
+        <Navbar
+        page="Accueil"
+        page2="Connexion"
+        page3="Inscription"
+        urlAcc="./Accueil"
+        urlCo="./Connexion"
+        url2= "./Inscription"/>
         <MainInscription/>
         <Footer/>
     </div>

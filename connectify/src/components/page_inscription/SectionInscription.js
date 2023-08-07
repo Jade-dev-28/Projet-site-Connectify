@@ -9,7 +9,9 @@ function SectionInscrption (props) {
             </div>
             <div className="texte">
                 <h2>{props.title}</h2>
-                <InscriptionForm/>
+                <InscriptionForm
+                 urlCo="./Connexion"
+                />
             </div>
         </div>
     );

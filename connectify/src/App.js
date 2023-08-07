@@ -5,6 +5,7 @@ import Home from './routes/Home';
 import Connexion from './routes/Connexion';
 import Contact from './routes/Contact';
 import Inscription from './routes/Inscription';
+import Profil from './routes/Profil';
 
 
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/connexion" element={<Connexion />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/inscription" element={<Inscription />} />
+          <Route path="/profil" element={<Profil />} />
 
           
         </Routes>

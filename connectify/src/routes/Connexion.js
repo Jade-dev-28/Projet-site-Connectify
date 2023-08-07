@@ -8,10 +8,14 @@ import MainConnexion from "../components/page_connexion/MainConnexion";
 function Connexion (){
     return(
         <div>
-            <Navbar/>
-            <MainConnexion title="Connexion"
-        />
-
+            <Navbar
+            page="Accueil"
+            page2="Connexion"
+            page3="Inscription"
+            urlAcc="./Accueil"
+             urlCo="./Connexion"
+             url2= "./Inscription"/>
+            <MainConnexion title="Connexion"/>
             <Footer/>
         </div>
 
