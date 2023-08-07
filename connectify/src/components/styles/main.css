@@ -15,6 +15,7 @@
 
 .section2 img {
     width: 100%;
+    object-fit: cover;
     
 }
 

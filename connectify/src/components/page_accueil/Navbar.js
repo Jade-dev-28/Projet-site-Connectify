@@ -16,7 +16,7 @@ const showNavbar = () => {
                 <a href={props.urlAcc}>{props.page}</a>
                 <a href={props.urlCo}>{props.page2}</a>
                 <a href={props.url2}>{props.page3}</a>
-                 </nav>
+            </nav>
          </header>
 
     );

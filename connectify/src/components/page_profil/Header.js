@@ -8,8 +8,9 @@ function Header (){
         <div>
 
             <div className="header_profil">
+                <div className="containerProfil">
 
-
+                </div>
 
             </div>
         </div>
