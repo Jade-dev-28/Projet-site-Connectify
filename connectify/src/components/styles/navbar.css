@@ -20,3 +20,48 @@ nav{
   .bg_nav{
     background-color: #20835D;
   }
+
+  
+  @media (max-width: 768px) {
+    
+  
+  nav {
+    height: 100%;
+    width: 0; /* Initial width set to 0, will be expanded on open */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #20835D;
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 9999;
+  }
+  
+  nav.nav-open {
+    width: 250px; /* Width of the nav when open */
+  }
+  
+  nav a {
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  nav a:hover {
+    color: var(--mainColor);
+  }
+  
+  /* Style for the close button */
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  
+}

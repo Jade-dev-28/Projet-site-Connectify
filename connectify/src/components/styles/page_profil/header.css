@@ -1,4 +1,4 @@
-.header_profil{
+.header_profil {
     background: url(../../../assets/rectangle19.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,17 +6,76 @@
     height: 600px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: space;
+
 }
 
 
 
-.containerProfil{
+.containerProfil {
     width: 1322px;
     height: 386px;
     background: rgba(190, 186, 186, 0.72);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin:auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem;
+
+}
+
+.containerProfil p {
+    align-self: center;
+
+
+}
+
+
+
+
+
+.photoPf {
+    width: 329px;
+    height: 297px;
+    flex-shrink: 0;
+    /*background: url(<path-to-image>), lightgray 50% / cover no-repeat;*/
+
+}
+
+.photoPf img {
+    width: 329px;
+    height: 297px;
+    border-radius: 329px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .containerProfil {
+        width: 95%;
+        height: 79%;
+        background: rgba(190, 186, 186, 0.72);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 2rem;
+    }
+
+.photoPf img {
+    width: 257px;
+    height: 222px;
+    border-radius: 329px;
+}
+
+
+
+.photoPf {
+    width: 318px;
+    height: 178px;
+    flex-shrink: 0;
+  
+}
 
 }

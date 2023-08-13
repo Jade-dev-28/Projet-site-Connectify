@@ -5,6 +5,10 @@ flex-direction: row;
 justify-content: center;
 }
 
+.news h2{
+    font-size: 42px;
+}
+
 .news{
     padding: 3rem;
     width: 981px;
@@ -14,11 +18,25 @@ background: rgba(0, 0, 0, 0.74);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-button {
+.news button {
 width: 326px;
 height: 80px;
 border-radius: 20px;
 background: #216249;
 color: #fff;
 font-size: 30px;
+}
+
+@media (max-width:768px) {
+    .news h2{
+        font-size: 42px;
+    }
+
+    .news button {
+        width: 250px;
+        height: 56px;
+        font-size: 30px;
+        margin-top: 15px;
+    }
+
 }

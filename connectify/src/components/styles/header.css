@@ -77,6 +77,13 @@
     font-size: x-large;
     
   }
-
+ @media (max-width:768px){
+  h1 {
+    font-family: 'Chicle', cursive;
+    font-size: 115px;
+    margin-top: 37vh;
+    margin-bottom: 37vh;
+}
+ }
   
   
