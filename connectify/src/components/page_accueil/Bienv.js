@@ -18,7 +18,7 @@ function Bienv() {
     jp:"いらっしゃいませ",
     kb:"Anṣuf yis-wen",
     az:"ⴰⵏⵚⵓⴼ ⵢⵉⵙ ⵡⴻⵏ",
-    // Ajoutez autant de langues que nécessaire
+    
   };
   
     const [currentLanguage, setCurrentLanguage] = useState("fr");
