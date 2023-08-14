@@ -16,16 +16,16 @@ function SectionWall() {
   };
 
   const handlePostClick = () => {
-    // Simulate posting the text and image to another section
+    // simulation
     console.log("Text:", text);
     console.log("Image:", image);
-    // Reset the form
+    // reset
     setText("");
     setImage(null);
   };
 
   const handleImageIconClick = () => {
-    // Trigger the input file click when the image icon is clicked
+    
     document.getElementById("imageInput").click();
   };
 
