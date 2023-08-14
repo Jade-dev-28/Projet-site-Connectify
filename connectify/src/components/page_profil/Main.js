@@ -45,6 +45,8 @@ function Main() {
     setActiveTab(categoryId);
   };
 
+  
+
   return (
     <div className="mainProfil">
       <div className="tab">

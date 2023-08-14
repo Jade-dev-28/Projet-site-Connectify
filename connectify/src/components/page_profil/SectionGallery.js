@@ -54,7 +54,7 @@ function SectionGallery() {
         />
       </div>
 
-      {/* The Modal */}
+      {/*  Modal */}
       {modalVisible && (
         <div className="modal">
           {/* The Close Button */}
@@ -62,7 +62,7 @@ function SectionGallery() {
             &times;
           </span>
 
-          {/* Modal Content (The Image) */}
+          {/* Contenu Modal*/}
           <img
             className="modal-content"
             src={modalImageSrc}

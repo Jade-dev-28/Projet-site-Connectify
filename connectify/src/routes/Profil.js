@@ -16,7 +16,8 @@ return(
         page2="Contact"
         page3="Deconnexion"
         urlAcc="./Profil"
-        urlCo="./Contact"/>
+        urlCo="./Contact"
+        url2="./Accueil"/>
         
         <Header/>
         <Main/>

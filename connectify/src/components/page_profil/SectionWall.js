@@ -65,7 +65,7 @@ function SectionWall() {
           />
         </div>
         <Icon icon="fa:send" color="white" width="60" height="60" />
-        <button onClick={handlePostClick}>Post</button>
+       
       </div>
     </div>
   );

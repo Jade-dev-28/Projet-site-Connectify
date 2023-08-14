@@ -3,8 +3,8 @@ import "../styles/page_profil/header.css"
 import photoProfil from "../../assets/media_profil/photo-profil.png";
 
 
-function Header (){
-    return(
+function Header() {
+    return (
 
         <div>
 
@@ -12,7 +12,7 @@ function Header (){
                 <div className="containerProfil">
 
                     <div className="photoPf">
-                        <img src={photoProfil}/>
+                        <img src={photoProfil} />
                     </div>
 
                     <p>SAINT-ANGE</p>
@@ -29,5 +29,5 @@ function Header (){
     );
 
 }
- 
-export default Header ;
+
+export default Header;

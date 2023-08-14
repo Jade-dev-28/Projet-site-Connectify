@@ -1,8 +1,8 @@
 import '../styles/main.css';
 import InscriptionForm from './InscriptionForm';
 
-function SectionInscrption (props) {
-    return(
+function SectionInscrption(props) {
+    return (
         <div className="section">
             <div className={props.cName}>
                 <img src={props.sectImg} alt="" />
@@ -10,7 +10,7 @@ function SectionInscrption (props) {
             <div className="texte">
                 <h2>{props.title}</h2>
                 <InscriptionForm
-                 urlCo="./Connexion"
+                    urlCo="./Connexion"
                 />
             </div>
         </div>

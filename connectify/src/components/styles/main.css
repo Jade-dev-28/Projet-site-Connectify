@@ -23,6 +23,9 @@
     width: 50%;
     padding: 3rem;
     background-color: #20835D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .texteQsn{

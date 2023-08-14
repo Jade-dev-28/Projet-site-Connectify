@@ -28,6 +28,11 @@ font-size: 30px;
 }
 
 @media (max-width:768px) {
+
+    .news{
+        width: 200%;
+    }
+
     .news h2{
         font-size: 42px;
     }

@@ -6,11 +6,11 @@ function SectionVideo() {
     return (
 
         <div>
-             <video id="myVideo"  autoPlay loop>
-            <source src={video_profil} type="video/mp4"/>
+            <video id="myVideo" autoPlay loop>
+                <source src={video_profil} type="video/mp4" />
             </video>
 
-            
+
 
         </div>
     );

@@ -1,7 +1,7 @@
 import '../styles/main.css';
 
-function SectionQsn (props) {
-    return(
+function SectionQsn(props) {
+    return (
         <div className="sectionQsn">
             <div className="texteQsn">
                 <h2>{props.title}</h2>
@@ -14,5 +14,5 @@ function SectionQsn (props) {
     );
 }
 
-export default SectionQsn ; 
+export default SectionQsn;
 

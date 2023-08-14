@@ -5,6 +5,7 @@ import Connexion from './routes/Connexion';
 import Contact from './routes/Contact';
 import Inscription from './routes/Inscription';
 import Profil from './routes/Profil';
+import AuthRouter from './routes/Auth/AuthRouter';
 
 
 
@@ -19,7 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/inscription" element={<Inscription />} />
           <Route path="/profil" element={<Profil />} />
-
+          <Route path="/auth" element={<Connexion/>}/>
           
         </Routes>
       </Router>
